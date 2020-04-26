@@ -34,4 +34,4 @@
 ### Verify app is working:
 
 query() your mongoDB instance for "eventdata" collection to check that events been persisted, 
-and follow the logs accros the polling job in the command line.
+and read the logs on file: /log/raceapp.log
