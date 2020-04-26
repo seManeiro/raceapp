@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  event_db:
+    image: mongo:latest
+    container_name: "event_db"
+    ports:
+      - 27017:27017
+    command: --smallfiles
+  raceapp:
+    image: raceapp-docker-image
+    ports:
+      - 9091:8080
+    links:
+      - event_db
+
+
