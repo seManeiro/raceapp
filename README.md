@@ -1,14 +1,8 @@
-# raceapp application:
+# Trav Race App:
 
 ### Download the source code and cd into the project directory from your command line.
 
-## Build application with Docker
-
-- *docker-compose build*
-
-- *docker-compose up -d*
-
-## Build this application localy:
+## Build application localy:
 
 ### for this application to work you need localy installed:
 
