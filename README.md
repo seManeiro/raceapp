@@ -10,9 +10,9 @@
 
 ## Build this application localy:
 
-### for this application to work you need to previous have installed:
+### for this application to work you need localy installed:
 
-- *MongoDb version v4.2.3 (running localy)
+- *MongoDb version v4.2.3 (running localy) or later*
 
 - *Java java 11.0.6 or later*
 
@@ -39,5 +39,5 @@
 
 ### Verify app is working:
 
-#### query() your mongoDB instance for "eventdata" collection to check that events been persisted, 
+query() your mongoDB instance for "eventdata" collection to check that events been persisted, 
 and follow the logs accros the polling job in the command line.
