@@ -51,7 +51,7 @@ public class RaceDataFetchingService {
 
 		} catch (Exception e) {
 			log.error("Something when wrong: " + e.getStackTrace());
-			throw new Exception();
+			throw e;
 		}
 
 	}
